@@ -43,12 +43,12 @@ We addressed class imbalance via image augmentation and weighting each class by 
 ![img](./images/classimbalance.png)
 
 
-Looking at three examples from each class, the differences are subtle. But we hope that by then end of this section you will be able to accurately identify pneumonia chest x-rays from normal ones. Pay close attention to the definition of the chest cavity in Normal images and the blurred lung area in pneumonia patients
+We visually inspected 3 by 2 random batches of images from our training data. It’s not clear which class images belong to without the aid of labels. I’ll draw your attention to the cloudiness of the lateral distal portions of the lungs in the pneumonia images and the clear negative space that is present in the chest cavities of normal images. 
 
 ![img](./images/normVSpneu.png)
 
 
-If we compare the mean pixel intensity between the two groups, where a higher value here represents a higher average pixel intensity in pneumonia chest x-rays, we can see that on average, pneumonia images have far brighter lungs. This is due to scarificaton and fluid build up in the lungs due to the infection.
+If we compare the mean pixel intensity between the two groups, where more red here represents a higher average pixel intensity in pneumonia chest x-rays, we can see that on average, pneumonia images have far brighter lungs. This is due to scarificaton and fluid build up in the lungs due to the infection.
 
 ![img](./images/averageDifference.png)
 
