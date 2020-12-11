@@ -178,13 +178,13 @@ Finally, here we used wrote a soft voting classifier simililar to the scikit lea
 ## Repository Structure
 
 ```
-├── Index.ipynb     | A complete walkthrough of our project, see also index.pdf
-├── README.md       |
-├── images          | Images used in this README
+├── Pneumonia Classification.ipynb     <- A complete walkthrough of our project
+├── README.md       <-
+├── images          <- Images used in this README
 ├── notebooks       
-│   ├── EDA         | Exploratory Data Analysis
-│   └── modelling   | Model Prototyping 
+│   ├── EDA         <- Exploratory Data Analysis
+│   └── modelling   <- Model Prototyping 
 └── src
-    ├── data        | Image Data
-    └── modules     | Custom eda, preprocessing and graphing functions
+    ├── data        <- Image Data
+    └── modules     <- Custom eda, preprocessing and graphing functions
 ```
