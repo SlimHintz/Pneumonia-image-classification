@@ -25,7 +25,7 @@ Summary of key findings:
 
 ## Healthcare Problem
 
-X-rays are a widely accessible imaging technique that can be used to diagnose pneumonia. However, years of training are required for someone to make an accurate diagnosis. We built a convolutional neural network that can classify images of pneumonia with 90% accuracy and could be run on nothing more than a smart-phone. We propose implementing automated image classification in low income communities with access to x-rays that will aid medical professionals by better allocating their time and resources.
+X-rays are a widely accessible imaging technique that can be used to diagnose pneumonia. However, years of training are required for someone to make an accurate diagnosis. We built a convolutional neural network that can classify images of pneumonia with 90% accuracy and could be run on nothing more than a smart-phone. We optimised recall to minimise the number of false negatives. We propose implementing automated image classification in low income communities with access to x-rays that will aid medical professionals by better allocating their time and resources.
 
 ## Data
 
